@@ -2,9 +2,7 @@ import pytest
 import requests
 import responses
 import urllib.parse
-from datetime import datetime, timedelta
-
-#from code.code_requests import order_pizza
+from code_requests import order_pizza
 
 RECIPES = {
     'DEFAULT': {
